@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,500;1,9..40,600&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.studios {
+  writing-mode: vertical-lr;
+}
+.homepage{
+  background: rgb(244,221,255);
+  background: linear-gradient(306deg, rgba(244,221,255,1) 0%, rgba(255,255,255,1) 23%, rgba(229,254,255,1) 84%, rgba(221,253,254,1) 100%);
+}
+
+.gisore {
+  transform: scale(-1, 1);
+            -moz-transform: scale(-1, 1);
+            -webkit-transform: scale(-1, 1);
+            -o-transform: scale(-1, 1);
+            -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
+}
+ .marquee {
+    overflow: hidden;
+ }
+ .marquee h2{
+    white-space: nowrap; 
+    padding: 0.6rem;
+ }
+
+ .transpa {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* text-stroke-color: black; */
+    white-space: nowrap; 
+    padding: 0.6rem;
+    letter-spacing: 1px;
+
+ }
+
+
+
+
+
+
+
+
